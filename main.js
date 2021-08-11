@@ -16,7 +16,10 @@
       document.body.removeChild(TempText);
       
       alert("Copied the text: " + TempText.value);
+      console.log("Copied the text: " + TempText.value);
     }
 
     CopyMe(prId + " " + jiraId)
+        
 })();
+
